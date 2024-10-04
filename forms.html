@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pensionform.in</title>
+</head>
+<style>
+    .a1{
+        background-color: rgba(60, 210, 237, 0.763);
+        width: 50%;
+        height:500px;
+        border-style:  solid;
+        border-color: rgb(18, 252, 225);
+        border-width: 2px 2px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 350px;
+        border-radius: 30px;
+        
+    }
+    body{
+      background-color: black}
+    .p1{
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    body{
+      align-items: center;
+    }
+    
+</style>
+
+<body>
+   <form>
+ <div class="a1"> 
+    <h1 class="p1">PENSION FORM</h1><hr>
+    <div class="a2">
+        <div>
+            <label for="name">  Name :</label>
+            <input type="text" name="name" id="name">
+        </div><br>
+     <div>
+        <label for="surname">Surname :</label>
+     <input type="text" name="surname" id="surname">
+     </div>
+     <br>
+     <div>
+        <label for="FORHname">s\o w\o d\o:</label>
+     <input type="text" name="FORHname" id="FORHname">
+     </div>
+     <br>
+     <div>
+        <label for="Hno">House no:</label> 
+        <input type="text" name="hno" id="hno">
+     </div>
+     <br>
+     <div>
+        <label for="locality">Locality:</label> 
+        <input type="text" name="loc" id="loc">
+     </div>
+     <br>
+     <div>
+        <label for="ano">Aadhar no:</label> 
+        <input type="text" name="ano" id="ano">
+     </div><br>
+    <div> 
+        <label for="dis">Disability :</label> 
+        <label for="yes">yes</label> 
+       <input type="radio" name="yes" id="yes" value="yes">
+       <label for="no">no</label> 
+       <input type="radio" name="no" id="no" value="no">
+       </div><br>
+     <div>
+      <label for="date">DOB :</label>
+      <input type="date">
+     </div><br>
+     <div> 
+        <label for="dis">Gender :</label> 
+        <label for="male">M</label> 
+        <input type="radio" name="male" id="male" value="male">
+        <label for="female">F</label> 
+        <input type="radio" name="f" id="f" value="f">
+        <label for="others">Others</label> 
+        <input type="radio" name="others" id="others" value="others">
+      </div><br>
+       <div>
+         <input type="submit" >
+         <input type="reset">
+         <button type="button" onclick="window.print()">print</button>
+       </div><br>
+      </form>
+ </div> 
+
+</body>
+</html>
